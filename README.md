@@ -124,7 +124,8 @@ sudo apt install python3.8-distutils
 sudo apt update
 sudo apt install postgresql postgresql-contrib
 
-to connect postgres from command line
+Connect PostgreSQL
+
 sudo -u postgres psql
 
 create database and user this commands
@@ -148,21 +149,28 @@ sudo apt-get install python3.8-venv
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-```sh
-git clone https://github.com/your_username_/Project-Name.git
-```
-3. Install NPM packages
-```sh
-npm install
-```
-4. Enter your API in `config.js`
-```JS
-const API_KEY = 'ENTER YOUR API';
-```
 
-
+1. Clone the repo
+```sh
+git clone https://github.com/Instigate-Training-Center-11/Online_learning_platform/tree/development/server
+```
+2. Go to the repository you just cloned
+```sh
+$cd Online_learning_platform/
+```
+3. Create virtual environment
+```sh
+python3 -m venv venv
+```
+4. Activate virtual environment
+```sh
+source venv/bin/activate
+```
+5. Install server dependencies
+```sh
+cd server/
+pip3 install -r requirements.txt
+```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
