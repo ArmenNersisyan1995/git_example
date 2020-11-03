@@ -92,6 +92,7 @@ This section should list any major frameworks that you built your project using.
   * [Django 3.1.2](https://docs.djangoproject.com/en/3.1/releases/3.1.2/)
   * [PostgreSQL 9.5.23](https://www.postgresql.org/docs/9.5/index.html)
   * [Bootstrap 4.5](https://getbootstrap.com)
+  * [pip3](https://linuxize.com/post/how-to-install-pip-on-ubuntu-18.04/)
 * [Client](https://github.com/Instigate-Training-Center-11/Online_learning_platform/tree/development/client)
   * [Node v8.9.4 or more recent version](https://nodejs.org/en/docs/)
   * [Bootstrap 4.5](https://getbootstrap.com)
@@ -106,6 +107,20 @@ This is an example of how you may give instructions on setting up your project l
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+
+* server
+
+* Install python 3.8
+```sh
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt-get update
+sudo apt-get install python3.8
+sudo apt install python3.8-distutils
+python3.8 -m pip install --upgrade pip setuptools wheel
+sudo apt install python3.8-venv python3.8-dev
+python3.8 -m venv env
+```
+
 
 This is an example of how to list things you need to use the software and how to install them.
 * npm
