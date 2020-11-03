@@ -36,7 +36,7 @@
   <h3 align="center">Smart School </h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    This is an online platform for learning programming .
     <br />
     <a href="https://github.com/Instigate-Training-Center-11/Online_learning_platform/tree/development"><strong>Explore the docs »</strong></a>
     <br />
@@ -86,9 +86,16 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 ### Built With
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+* [server](https://github.com/Instigate-Training-Center-11/Online_learning_platform/tree/development/server)
+  * [Python 3.8](https://docs.python.org/release/3.8.6/)
+  * [Virtual environment](https://www.enterprisedb.com/postgres-tutorials/how-use-postgresql-django)
+  * [Django 3.1.2](https://docs.djangoproject.com/en/3.1/releases/3.1.2/)
+  * [PostgreSQL 9.5.23](https://www.postgresql.org/docs/9.5/index.html)
+  * [Bootstrap 4.5](https://getbootstrap.com)
+* [Client](https://github.com/Instigate-Training-Center-11/Online_learning_platform/tree/development/client)
+  * [Node v8.9.4 or more recent version](https://nodejs.org/en/docs/)
+  * [Bootstrap 4.5](https://getbootstrap.com)
+
 
 
 
