@@ -108,7 +108,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-* __server__
+* __Server__
 
 * Install python 3.8
 ```sh
@@ -116,11 +116,19 @@ sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt-get update
 sudo apt-get install python3.8
 sudo apt install python3.8-distutils
+```
+
+* Install pip3
+
+```sh
+sudo apt-get update
+sudo apt-get -y install python3-pip
+```
+
+
 python3.8 -m pip install --upgrade pip setuptools wheel
 sudo apt install python3.8-venv python3.8-dev
 python3.8 -m venv env
-```
-
 
 This is an example of how to list things you need to use the software and how to install them.
 * npm
