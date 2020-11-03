@@ -171,15 +171,53 @@ source venv/bin/activate
 cd server/
 pip3 install -r requirements.txt
 ```
+5. Open .env file and save  your data
+```sh
+SECRET_KEY = SECRET_KEY
+NAME = NAME
+USER_NAME = USER_NAME
+PASSWORD = PASSWORD
+HOST = HOST
+PORT = PORT
+```
+
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+## Insert database
+```sh
+open a new terminal
+cd Online_learning_platform/
+pg_restore -U <db_user> -d <db_name> -Fc db.dump>
+```
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+## Migrate the database
+```sh
+python3.8 manage.py makemigrations
+python3.8 manage.py migrate
+```
 
 
+## Create super user
+```sh
+python3.8 manage.py createsuperuser
+after thi command you need insert user_name, password, email from command line
+```
+
+
+## Start server
+```sh
+python3.8 manage.py createsuperuser
+after thi command you need insert user_name, password, email from command line
+```
+
+## Open result in browser
+```sh
+http://localhost:8000/
+```
+
+[![Product Name Screen Shot][product-homePage]](https://example.com)
 
 <!-- ROADMAP -->
 ## Roadmap
