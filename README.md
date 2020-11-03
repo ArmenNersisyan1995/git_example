@@ -217,7 +217,7 @@ after thi command you need insert user_name, password, email from command line
 http://localhost:8000/
 ```
 
-[![Product Name Screen Shot][product-homePage]](https://example.com)
+[![Product Name home page][product-homePage]](https://example.com)
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -288,3 +288,4 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
+[product-homePage]: images/homePage.png
