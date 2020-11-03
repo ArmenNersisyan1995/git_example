@@ -108,7 +108,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-* server
+* __server__
 
 * Install python 3.8
 ```sh
