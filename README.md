@@ -118,6 +118,22 @@ sudo apt-get install python3.8
 sudo apt install python3.8-distutils
 ```
 
+
+* Install  PostgreSQL
+```sh
+sudo apt update
+sudo apt install postgresql postgresql-contrib
+
+to connect postgres from command line
+sudo -u postgres psql
+
+create database and user this commands
+
+postgres=# create database 'name database';
+postgres=# create user 'username' with password 'password';
+postgres=# grant all privileges on database 'name database' to 'username';
+```
+
 * Install pip3
 
 ```sh
@@ -125,15 +141,9 @@ sudo apt-get update
 sudo apt-get -y install python3-pip
 ```
 
-
-python3.8 -m pip install --upgrade pip setuptools wheel
-sudo apt install python3.8-venv python3.8-dev
-python3.8 -m venv env
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+* Install virtual environment
 ```sh
-npm install npm@latest -g
+sudo apt-get install python3.8-venv
 ```
 
 ### Installation
