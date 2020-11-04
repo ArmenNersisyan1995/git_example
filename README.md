@@ -87,7 +87,7 @@ This section should list any major frameworks that you built your project using.
 * [Client](https://github.com/Instigate-Training-Center-11/Online_learning_platform/tree/development/client)
   * [Node v8.9.4 or more recent version](https://nodejs.org/en/docs/)
   * [Bootstrap 4.5](https://getbootstrap.com)
-
+  * [React Js](https://reactjs.org/tutorial/tutorial.html)
 
 
 
