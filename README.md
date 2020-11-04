@@ -162,7 +162,7 @@ source venv/bin/activate
 cd server/
 pip3 install -r requirements.txt
 ```
-5. Open .env file and save  your data
+6. Open .env file and save  your data
 ```sh
 SECRET_KEY = SECRET_KEY
 NAME = NAME
